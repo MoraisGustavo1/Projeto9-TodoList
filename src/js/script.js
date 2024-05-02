@@ -26,3 +26,11 @@ function adicionarTarefa(){
     }
     document.getElementById('task').focus();
 }
+
+function listarTarefas(){
+    let valor="";
+    for(let i=0; i<tarefas.length; i++){
+        valor += tarefas[i] +"<br>";
+    }
+    document.getElementById("lista").innerHTML =valor;
+}
