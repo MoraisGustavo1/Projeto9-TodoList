@@ -1,0 +1,10 @@
+body{
+    color: brown;
+    background-color: bisque;
+    font-size: 30px;
+}
+#lista-container{
+    border-color: brown;
+    border-style: solid;
+    padding: 20px;
+}
